@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SPYPred - Bootstrap Landing Page Template</title>
+  {% load static %}
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container-fluid">
+
+      <div class="logo">
+        <h1><a href="index.html">SPYPred</a></h1>
+
+      </div>
+
+      <button type="button" class="nav-toggle"><i class="bx bx-menu"></i></button>
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="#header" class="scrollto">Home</a></li>
+          <li><a href="#about" class="scrollto">About Us</a></li>
+          <li><a href="#why-us" class="scrollto">Why Us</a></li>
+          </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End #header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Welcome to SPYpred</h1>
+      <h2>SPYpred is a platform that predicts solar power yield.</h2>
+
+
+     <button><a href="/dform" class="btn-get-started">Predict Yield</a></button>
+<button><a href="/wform" class="btn-get-started">Predict Yield</a></button>
+        </div>
+
+    </div>
+  </section><!-- #hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="{% static 'img/about-img.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <h3>In today's era of increasing environmental awareness and sustainable energy initiatives, solar power stands out as a beacon of hope for clean and renewable energy production. </h3>
+            <p class="fst-italic">
+              However, harnessing the full potential of solar energy requires overcoming the challenge of accurately predicting solar power yield. This task involves understanding the intricate interplay between environmental factors and solar panel performance to optimize energy generation and resource utilization.
+            Some challeges that has been encountered are :
+            </p>
+            <ul>
+              <li><i class="bx bx-check-double"></i> Rising Demand for Renewable Energy but lack of infrastructure</li>
+              <li><i class="bx bx-check-double"></i> Complexity of Solar Energy Generation and yield prediction</li>
+              <li><i class="bx bx-check-double"></i> Budegetary constraints</li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <img src="{% static 'img/why-us-1.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-icon">
+                <i class="bx bx-book-reader"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Our Mission</a></h5>
+                <p class="card-text">Enhance Energy Efficiency </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <img src="{% static 'img/why-us-2.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-icon">
+                <i class="bx bx-calendar-edit"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Our Plan</a></h5>
+                <p class="card-text">Develop Accurate Predictive Models</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <img src="{% static 'img/why-us-3.jpg' %}" class="card-img-top" alt="...">
+              <div class="card-icon">
+                <i class="bx bx-landscape"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Our Vision</a></h5>
+                <p class="card-text">Enable Informed Decision-Making</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Frequenty Asked Questions Section ======= -->
+    <section class="faq">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Frequenty Asked Questions</h2>
+        </div>
+
+        <ul class="faq-list">
+
+          <li>
+            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq1">What factors influence solar power yield? <i class="bx bx-down-arrow-alt icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Several factors affect solar power yield, including solar irradiance, ambient temperature, module temperature, shading, panel orientation, and tilt angle. Our predictive models take these factors into account to provide accurate yield forecasts
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq2" class="collapsed">How accurate are the predictions generated by your models?<i class="bx bx-down-arrow-alt icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Our machine learning models are trained on historical data and utilize advanced algorithms to make predictions with a high degree of accuracy. However, it's important to note that solar power generation can be influenced by unpredictable factors such as weather fluctuations.
+              </p>
+            </div>
+          </li>
+          <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq4" class="collapsed">How can your predictive analytics benefit solar energy stakeholders?<i class="bx bx-down-arrow-alt icon-show"></i><i class="bx bx-x icon-close"></i></a>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Our predictive analytics provide valuable insights to solar energy stakeholders, including solar farm operators, energy planners, and investors. These insights help optimize energy production, improve resource management, and inform strategic decision-making for better overall efficiency and sustainability.              </p>
+            </div>
+          </li>
+
+
+
+        </ul>
+
+      </div>
+    </section><!-- End Frequenty Asked Questions Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+         <strong><span>SPYPred</span></strong>.
+      </div>
+    </div>
+  </footer><!-- End #footer -->
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
