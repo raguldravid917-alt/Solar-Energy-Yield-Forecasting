@@ -9,7 +9,7 @@
 **Solar Energy Yield Forecasting** is a comprehensive full-stack web application designed to predict and analyze solar power generation based on historical weather and energy data. Built with the **MERN stack** and integrated with a **Python-based prediction model**, this platform provides interactive data visualizations and accurate yield forecasting to help optimize solar energy utilization.
 
 🚀 **Live Demo:** [https://raguldravid.pythonanywhere.com/]
-<video src="SPYPred - Bootstrap Landing Page Template - Personal - Microsoft_ Edge 2026-03-15 18-13-10" controls="controls" width="100%"></video>
+<video src="demo.mp4" controls="controls" width="100%"></video>
 
 ## ✨ Key Features
 * **Accurate Forecasting:** Utilizes Python to process environmental data and predict solar energy yield.
